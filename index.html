@@ -46,7 +46,9 @@
             class="img-fluid"
           />
         </a>
-        <h1 class="nombre fw-bold">Pablo Rodriguez</h1>
+        <a class="navbar-brand" href="#"
+          ><h1 class="nombre fw-bold">Pablo Rodriguez</h1></a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -99,19 +101,20 @@
     <section id="contenido">
       <section id="Portafolio" class="container text-center my-5">
         <h2 class="display-3 fw-bold my-4">Portafolio</h2>
-
         <div class="container p-3">
           <div class="row row-gap-5">
-            <div class="col-12 col-sm-6 col-md-3">
+            <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch">
               <div class="card">
                 <img
                   src="./assets/img/portafolio_cv.jpg"
                   class="card-img-top"
                   alt="Imagen proyecto CV"
                 />
-                <div class="card-body">
-                  <h3 class="my-3 fw-bold">Curriculum Vitae</h3>
-                  <p class="my-3">Desarrollado solo con HTML</p>
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title fw-bold">Curriculum Vitae</h3>
+                  <p class="card-text my-3">
+                    Desarrollado solo con HTML.<br />&nbsp
+                  </p>
                   <button type="button" class="btn btn-lg btn-info text-light">
                     <a
                       class="nav-link"
@@ -124,16 +127,19 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-3">
+            <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch">
               <div class="card">
                 <img
                   src="./assets/img/portafolio_landing.jpg"
                   class="card-img-top"
                   alt="Imagen proyecto Zapaworld"
                 />
-                <div class="card-body">
-                  <h3 class="my-3 fw-bold">ZapaWorld</h3>
-                  <p class="my-3">Landing Page desarrollado solo con HTML</p>
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title fw-bold">ZapaWorld<br />&nbsp</h3>
+
+                  <p class="card-text my-3">
+                    Landing Page desarrollado solo con HTML.
+                  </p>
                   <button type="button" class="btn btn-lg btn-info text-light">
                     <a
                       class="nav-link"
@@ -147,18 +153,17 @@
               </div>
             </div>
 
-            <div class="col-12 col-sm-6 col-md-3">
+            <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch">
               <div class="card">
                 <img
                   src="./assets/img/portafolio_iguana.jpg"
                   class="card-img-top"
                   alt="Imagen proyecto Iguana"
                 />
-                <div class="card-body">
-                  <h3 class="my-3 fw-bold">Iguana Page</h3>
-                  <p class="my-3">
-                    Landing Page desarrollado en base a una maqueta con HTML y
-                    CSS
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title fw-bold">Iguana Page<br />&nbsp</h3>
+                  <p class="card-text my-3">
+                    Landing Page en base a una maqueta con HTML y CSS.
                   </p>
                   <button type="button" class="btn btn-lg btn-info text-light">
                     <a
@@ -173,18 +178,17 @@
               </div>
             </div>
 
-            <div class="col-12 col-sm-6 col-md-3">
+            <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch">
               <div class="card">
                 <img
                   src="./assets/img/portafolio_cuppon.jpg"
                   class="card-img-top"
                   alt="Imagen proyecto Cuppon"
                 />
-                <div class="card-body">
-                  <h3 class="my-3 fw-bold">Cuppon</h3>
-                  <p class="my-3">
-                    Landing Page desarrollado con HTML y CSS, utilizando
-                    Bootstrap
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title fw-bold">Cuppon<br />&nbsp</h3>
+                  <p class="card-text my-3">
+                    Landing Page con HTML y CSS, utilizando Bootstrap.
                   </p>
                   <button type="button" class="btn btn-lg btn-info text-light">
                     <a
@@ -203,16 +207,14 @@
       </section>
 
       <section id="Educacion" class="container text-center my-5">
-        <h2 class="display-3 fw-bold my-4">Educación</h2>
-
-        <p class="my-4 fw-bold">
+        <h2 class="display-3 fw-bold my-3">Educación</h2>
+        <p class="my-4 fw-bold text-center">
           Ingeniero en Informática.<br />
           Diplomado en Gestion y Planificación de proyectos.<br />
           Programador de computadoras.<br />
           Estudiante del Bootcamp Desarrollador Full Stack en Academia Desafío
-          Latam
+          Latam<br /><br />
         </p>
-
         <div class="row">
           <div class="col-12 col-md-3">
             <img id="icono" src="assets/img/icono-html5.svg" />
@@ -230,7 +232,7 @@
             <img id="icono" src="assets/img/icono-git.svg" />
             <h3 class="my-3 fw-bold">Git</h3>
           </div>
-          <p class="my-4">
+          <p class="my-3 text-start">
             Recientemente aprendi los fundamentos de la construcción de un sitio
             web, los lenguajes básicos para esto (HTML/CSS), diseño responsive
             con Bootstrap 5, Modelos de caja, Terminal, control de versiones con
@@ -242,30 +244,32 @@
       <section id="Experiencia" class="container text-center my-5">
         <h2 class="display-3 fw-bold my-4">Experiencia</h2>
 
-        <p class="my-4 text-start">
+        <p class="my-3 text-start">
           Soy un profesional con una amplia trayectoria en el ámbito de la
           informática, cuento con más de 20 años de experiencia en el sector
           público como privado.
         </p>
-        <p class="my-4 text-start">
+        <p class="my-3 text-start">
           Me desempeño como Jefe de Proyectos y Consultor Técnico/Funcional
           Oracle en diversos proyectos de la mediana y gran empresa, tanto la
           Banca, las Empresas de Servicios y el Gobierno.
         </p>
-        <p class="my-4 text-start">
+        <p class="my-3 text-start">
           Entre mis habilidades destaco la colaboración en equipo, autonomía,
           compromiso y un alto sentido del logro.
         </p>
-        <p class="my-4 text-start">
+        <p class="my-3 text-start">
           He colaborado en la puesta en marcha de soluciones ERP, BI y el
-          Desarrollo e Integración de personalizaciones. Entre las diversas
-          compañías en las cuales me he desempeñado destacan: Banco ITAU,
-          Confuturo, VTR, ENAMI, Servipag, Abastible, Viña Santa Rita,
-          Ministerio de Obras Públicas, IPS, Capredena, entre otros.
+          Desarrollo e Integración de personalizaciones.
+        </p>
+        <p class="my-3 text-start">
+          Entre las diversas compañías en las cuales me he desempeñado destacan:
+          Banco ITAU, Confuturo, VTR, ENAMI, Servipag, Abastible, Viña Santa
+          Rita, Ministerio de Obras Públicas, IPS, Capredena, entre otros.
         </p>
       </section>
       <section id="Contacto" class="container my-5">
-        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+        <h2 class="display-3 fw-bold my-4 text-center">Contáctame</h2>
 
         <p class="text-center my-4 d-none d-md-block">
           Ingresa la información a continuación y me pondré en contacto contigo
